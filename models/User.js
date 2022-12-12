@@ -18,9 +18,10 @@ const UserSchema = new Schema({
         type: String,
         default: null
     },
+    //CuentaConfi Default null para enviar email de conf
     cuentaConfirmada:{
         type: Boolean,
-        default: false
+        default: true
     },
     imagen:{
         type: String,

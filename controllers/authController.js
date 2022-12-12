@@ -60,8 +60,10 @@ const registerUser = async(req, res)=>{
                     <br><br><p>Atentamente,</p><p>Equipo FreeCVMaker!💖</p>`,
         });
 
+       /* req.flash("mensajes", 
+        [{msg: "Necesitás activar tu cuenta, por favor revisá tu correo electrónico y accede al link de confirmación que te hemos enviado"}])*/
         req.flash("mensajes", 
-        [{msg: "Necesitás activar tu cuenta, por favor revisá tu correo electrónico y accede al link de confirmación que te hemos enviado"}])
+        [{msg: "Registrado con éxito, ya podés iniciar sesión"}])
 
         res.redirect('/auth/login')
     }
