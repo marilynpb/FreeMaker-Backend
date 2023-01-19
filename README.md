@@ -1,4 +1,4 @@
-# Proyecto Final Bootcamp Educación IT - Segunda entrega (Backend-CRUD funcional) #
+# Proyecto Final Bootcamp Educación IT - Segunda entrega (Backend CRUD funcional) #
 
 ## Creado por Gloria Marilyn Perez Boyko ##
 
