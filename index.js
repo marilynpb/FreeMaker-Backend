@@ -11,9 +11,7 @@ const csrf = require('csurf');
 require('dotenv').config();
 require('./database/db');
 
-
 const PORT = process.env.PORT || 3000;
-
 
 //Hbs
 app.set('view engine', 'hbs');
